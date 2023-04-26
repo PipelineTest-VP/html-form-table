@@ -6,34 +6,43 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form action="" id="myForm" name="myForm">
-        <fieldset>
-            <label class="label" for="firstName">First Name:</label>
-            <input class="input" type="text" name="firstName" id="firstName" placeholder="First Name" value="">
-        </fieldset>
-        <br>
-        <fieldset>
-            <label for="lastName">Last Name:</label>
-            <input type="text" name="lastName" id="lastName" placeholder="Last Name" value="">
-        </fieldset>
-        <br>
-        <fieldset>
-            <label for="age">Age:</label>
-            <input type="number" name="age" id="age" placeholder="Your Age" value="">
-        </fieldset>
-        <br>
-        <button type="submit">Submit</button>
-    </form>
-    <br><br><br>
-    <h2>Form Data table</h2>
-    <table id="dataTable">
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Age</th>
-        </tr>
-    </table>
+    <section class="card">
+        <form action="" id="myForm" name="myForm" style="margin: 10px;">
+            <fieldset>
+                <label class="label" for="firstName">First Name:</label>
+                <input class="input" type="text" name="firstName" id="firstName" placeholder="First Name" value="">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" value="">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" placeholder="Your Age" value="">
+            </fieldset>
+            <br>
+            <button type="submit" style="margin-left: inherit;">Submit</button>
+        </form>
+    </section>
 
+    <br><br>
+
+    <h3>Form Data table</h3>
+
+    <section class="card">
+        <section style="margin: 10px;">
+            <table id="dataTable">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </table>
+        </section>
+    </section>
+    
     <script src="index.js"></script>
 </body>
 </html>
